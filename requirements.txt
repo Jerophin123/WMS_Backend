@@ -1,8 +1,33 @@
-flask
-gunicorn
-pymysql
-mysql-connector-python
-google-api-python-client
-google-auth
-google-auth-oauthlib
-google-auth-httplib2
+# Web + server
+Flask==2.3.3
+Flask-Cors==4.0.0
+gunicorn==23.0.0
+
+# Core scientific / ML
+numpy==1.26.4
+tensorflow-cpu==2.15.0.post1
+# (No standalone 'keras' needed when using tensorflow.keras)
+
+# Imaging / plotting
+Pillow==10.4.0
+matplotlib==3.8.4
+opencv-python-headless==4.9.0.80
+
+# Database (MySQL)
+PyMySQL==1.1.1
+
+# Google Sheets / Drive / Auth
+gspread==6.1.4
+oauth2client==4.1.3
+pydrive2==1.19.0
+google-cloud-translate==2.0.4
+google-auth==2.33.0
+google-auth-oauthlib==1.2.1
+google-api-python-client==2.141.0
+
+# Reports (PDF)
+reportlab==4.2.2
+
+# Utilities
+python-dotenv==1.0.1
+requests==2.32.3
